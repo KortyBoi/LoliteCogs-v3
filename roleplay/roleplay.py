@@ -383,7 +383,7 @@ class Roleplay(BaseCog):
 
     @commands.command()
     @commands.bot_has_permissions(embed_links=True)
-    async def pat(self, ctx, *):#, user: discord.Member):
+    async def pat(self, ctx, *, user: discord.Member):
         """Pats a user!"""
 
         author = ctx.message.author
